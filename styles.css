@@ -33,6 +33,33 @@ input {
 	display: block;
 }
 
+.heading {
+	font-size: 18pt;
+	font-weight: 300;
+}
+
+h2 {
+	text-decoration: underline;
+}
+
 img {
 	max-width: 300px;
 }
+
+#imgself {
+	border: solid blue;
+	border-radius: 5%;
+}
+
+ul {
+	line-height: 2rem;
+	list-style: inside;
+	
+}
+
+#career {
+	line-height: 2rem;
+	text-indent: 33px;
+}
+
+
