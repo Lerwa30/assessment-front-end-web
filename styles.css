@@ -47,8 +47,8 @@ img {
 }
 
 #imgself {
-	border: solid blue;
-	border-radius: 5%;
+	border: 2px solid lightskyblue;
+	border-radius: 20px;
 }
 
 ul {
@@ -62,4 +62,17 @@ ul {
 	text-indent: 33px;
 }
 
+.style-btn {
+	background-color: rgb(225, 225, 23);
+	border: none;
+	border-radius: 12px;
+	display: inline-block;
+	text-align: center;
+	font-size: 16px;
+	padding: 16px;
+}
 
+.style-btn:hover {
+	background-color: black;
+	color: white;
+}
