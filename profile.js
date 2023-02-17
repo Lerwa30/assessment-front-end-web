@@ -8,7 +8,12 @@ function placeBtn() {
 
 
 function ritualBtn() {
-    alert('Playing The Legend of Zelda')
+    alert('Playing The Legend of Zelda');
+}
+
+function ritualSound(){
+    const sound = new Audio("OOT_PressStart.wav")
+    sound.play();
 }
 
 const faveColor = document.querySelector('#color')
@@ -19,3 +24,4 @@ favePlace.addEventListener('click', placeBtn)
 
 const faveRitual = document.querySelector('#ritual')
 faveRitual.addEventListener('click', ritualBtn)
+faveRitual.addEventListener('click', ritualSound)

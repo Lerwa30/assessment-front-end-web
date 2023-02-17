@@ -13,7 +13,9 @@ nav {
 
 ol {
 	padding-left: 0;
+	line-height: 2rem;
 }
+
 
 .crumb {
 	margin-right: 2em;
@@ -52,6 +54,7 @@ img {
 }
 
 ul {
+	padding-left: 0;
 	line-height: 2rem;
 	list-style: inside;
 	
@@ -75,4 +78,20 @@ ul {
 .style-btn:hover {
 	background-color: black;
 	color: white;
+}
+
+.food {
+	display:flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+#food-btn {
+	background-color: rgb(225, 225, 23);
+	border: none;
+	border-radius: 12px;
+	display: inline-block;
+	text-align: center;
+	font-size: 16px;
+	padding: 16px;
 }
